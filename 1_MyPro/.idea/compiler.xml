@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="admin-webui" />
+        <module name="common-util" />
+        <module name="admin-entity" />
+        <module name="common-reverse" />
+        <module name="admin-component" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="member-entity" target="1.8" />
+      <module name="member-eureka" target="1.8" />
+      <module name="member-mysql-provider" target="1.8" />
+      <module name="member-parent" target="1.8" />
+      <module name="test_demo" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="member-parent" options="-parameters" />
+    </option>
+  </component>
+</project>
