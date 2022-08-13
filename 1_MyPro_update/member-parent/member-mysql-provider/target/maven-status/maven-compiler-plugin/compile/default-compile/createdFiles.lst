@@ -1,0 +1,7 @@
+org\fall\service\api\MemberService.class
+org\fall\CrowdMainApp.class
+org\fall\service\impl\MemberServiceImpl.class
+org\fall\mapper\MemberPOMapper.class
+org\fall\service\api\OrderService.class
+org\fall\handler\MemberProviderHandler.class
+org\fall\service\api\ProjectService.class
